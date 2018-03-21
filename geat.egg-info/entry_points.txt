@@ -1,0 +1,5 @@
+[console_scripts]
+geat = geat.command_line:main
+geat_add = geat.command_line:add_file
+geat_init = geat.command_line:initialize
+
