@@ -1,0 +1,9 @@
+../.idea/
+.idea/
+
+*.pyc
+__pycache__
+.cache
+
+test_folder/
+
