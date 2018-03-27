@@ -103,7 +103,6 @@ class GeatRoot:
                 print(f'\t\tFILE: {file} got changed.')
             else:
                 pass
-                # print(f'\t\tNo changes in file {file}')
         print('\tSTACK:')
         for file, state in stack_state.items():
             this_file_diff = diff_state.get(file)
