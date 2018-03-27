@@ -21,6 +21,7 @@ setup(
             'geat_add=geat.command_line:add_file',
             'geat_status=geat.command_line:get_status',
             'geat_commit=geat.command_line:commit_to_stack',
+            'geat=geat.command_line:handle_geat_command',
         ],
     }
 )
